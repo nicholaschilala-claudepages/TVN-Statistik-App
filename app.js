@@ -48,12 +48,12 @@ window.addEventListener('unhandledrejection', (e)=>{
 // aktivieren (Anleitung: SETUP-FIREBASE.md). Solange apiKey auf dem
 // Platzhalter steht, läuft die App unverändert rein lokal wie bisher.
 const FIREBASE_CONFIG = {
-  apiKey: "DEIN_API_KEY",
-  authDomain: "DEIN_PROJEKT.firebaseapp.com",
-  projectId: "DEIN_PROJEKT",
-  storageBucket: "DEIN_PROJEKT.appspot.com",
-  messagingSenderId: "DEINE_SENDER_ID",
-  appId: "DEINE_APP_ID",
+  apiKey: "AIzaSyA1Q21tDBUvAxpIAQeT6Bun5licc9YTfGY",
+  authDomain: "tvn-statistik-nicholas-chilala.firebaseapp.com",
+  projectId: "tvn-statistik-nicholas-chilala",
+  storageBucket: "tvn-statistik-nicholas-chilala.firebasestorage.app",
+  messagingSenderId: "422323899846",
+  appId: "1:422323899846:web:0f9509c61d7cd69e1cb6c7",
 };
 const CLOUD_SYNC_ENABLED = !!(FIREBASE_CONFIG.apiKey && FIREBASE_CONFIG.apiKey !== 'DEIN_API_KEY');
 let CLOUD_SYNC_ACTIVE = CLOUD_SYNC_ENABLED; // kann bei Verbindungsfehlern zur Laufzeit auf false zurückfallen
